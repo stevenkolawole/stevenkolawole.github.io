@@ -73,7 +73,7 @@ a {
   transition: color 150ms ease;
 }
 .roundImg {
-  border-radius: 30%;
+  border-radius: 50%;
   border: 5px outset white;
 }
 .link,
