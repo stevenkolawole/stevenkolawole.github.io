@@ -371,7 +371,7 @@ a {
 }
 
 .pub-authors {
-  font-size: var(--font-size-sm);
+  font-size: 0.8em;
   color: var(--text-secondary);
   margin-bottom: var(--space-xs);
   font-weight: 500;
@@ -392,7 +392,9 @@ a {
 
 .pub-description {
   line-height: 1.7;
-  color: var(--text-secondary);
+  text-align: justify;
+  font-size: 0.75em;
+  color: #555;
   margin-bottom: var(--space-sm);
   transition: all 0.3s ease;
 }
@@ -465,7 +467,7 @@ a {
 }
 
 .publications-intro p {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
   line-height: 1.7;
   color: var(--text-secondary);
   margin: 0;
