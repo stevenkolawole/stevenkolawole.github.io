@@ -371,7 +371,7 @@ a {
 }
 
 .pub-authors {
-  font-size: 0.8em;
+  font-size: 0.85em;
   color: var(--text-secondary);
   margin-bottom: var(--space-xs);
   font-weight: 500;
