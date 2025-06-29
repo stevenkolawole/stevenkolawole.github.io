@@ -385,6 +385,11 @@ button, input, textarea, select {
   font-weight: 500;
 }
 
+.pub-authors .author-highlight {
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
 .pub-venue {
   display: inline-block;
   font-size: var(--font-size-xs);
