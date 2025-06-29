@@ -99,6 +99,14 @@ a {
 }
 
 /* ==========================================
+   FORM ELEMENTS & BUTTONS
+   ========================================== */
+
+button, input, textarea, select {
+  font-family: "Overpass Mono", monospace;
+}
+
+/* ==========================================
    LAYOUT COMPONENTS
    ========================================== */
 
@@ -659,6 +667,13 @@ a {
   .external-link {
     justify-content: center;
   }
+  
+  /* Reduce font sizes for better mobile readability */
+  .page-content > p:first-of-type,
+  .page-content h1 + p,
+  .container p {
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -675,6 +690,13 @@ a {
   
   .contact-header strong {
     font-size: var(--font-size-xl);
+  }
+  
+  /* Further reduce font sizes for smaller screens */
+  .page-content > p:first-of-type,
+  .page-content h1 + p,
+  .container p {
+    font-size: 0.9rem;
   }
 }
 
