@@ -363,7 +363,7 @@ button, input, textarea, select {
 }
 
 .pub-title {
-  font-size: var(--font-size-lg);
+  font-size: .95rem;
   font-weight: 700;
   margin-bottom: var(--space-xs);
   line-height: 1.4;
@@ -443,6 +443,7 @@ button, input, textarea, select {
   outline-offset: 3px;
   border-radius: 3px;
 }
+
 
 /* ==========================================
    BUTTONS & CTAs
@@ -567,6 +568,60 @@ button, input, textarea, select {
 .publications-note p {
   margin-bottom: var(--space-xs);
   font-size: var(--font-size-sm);
+}
+
+.award-badge {
+  display: inline-block;
+  margin-left: var(--space-xs);
+  padding: 0.2em 0.6em;
+  background-color: #ffd700;
+  color: #333;
+  font-size: 0.7em;
+  font-weight: 700;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+}
+
+/* ==========================================
+   PUBLICATION LINKS
+   ========================================== */
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+  align-items: center;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.3em 0.75em;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  transition: all var(--transition);
+}
+
+.pub-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-subtle);
+}
+
+.pub-link i {
+  font-size: 0.9em;
 }
 
 /* ==========================================
