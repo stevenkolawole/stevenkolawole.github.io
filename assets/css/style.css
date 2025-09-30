@@ -403,6 +403,13 @@ button, input, textarea, select {
   letter-spacing: 0.3px;
 }
 
+.pub-venue-expansion {
+  display: block;
+  font-size: 0.7em;
+  color: var(--text-light);
+  margin-top: 0.25rem;
+}
+
 .pub-description {
   line-height: 1.7;
   text-align: justify;
