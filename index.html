@@ -59,7 +59,7 @@
             <div class="contact-header">
               <strong>Steven Kolawole</strong>
               <div class="academic-affiliation">PhD Student, Carnegie Mellon University</div>
-              <div class="department"><a href="https://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a></div>
+              <div class="department"><a href="https://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> & <a href="https://www.ml.cs.cmu.edu/" target="_blank">Machine Learning</a></div>
               <div class="department"><a href="https://www.cs.cmu.edu/" target="_blank">School of Computer Science</a></div>
               <div class="advisor-info">Advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Professor Virginia Smith</a></div>
             </div>
@@ -116,9 +116,8 @@
         </p>
         <p style="text-align: justify">
           Currently, I'm investigating several interconnected approaches: agreement-based methods for efficient model 
-          routing, forward-pass techniques for model compression, and semantic approaches to extracting parallelism 
-          from natural language queries. My broader research vision centers on demonstrating that accessibility and performance
-          are not opposing forces; that thoughtful design choices can achieve both.
+          routing, semantic approaches to extracting parallelism from natural language queries, and forward-pass techniques for model compression. 
+          My broader research vision centers on demonstrating that accessibility and performance are not opposing forces; that thoughtful design choices can achieve both.
         </p>
       </div>
     </article>
@@ -132,8 +131,8 @@
             Agreement-Based Cascading for Efficient Inference
           </a>
         </div>
-        <div class="pub-authors">Steven Kolawole*, Don Dennis*, Ameet Talwalkar, Virginia Smith</div>
-        <div class="pub-venue">Under review, 2025</div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole*</span>, Don Dennis*, Ameet Talwalkar, Virginia Smith</div>
+        <div class="pub-venue" title="Transactions of Machine Learning Research">TMLR 2025</div>
         <div class="pub-description" id="desc-2" style="display: none;">
           Develops a training-free cascading framework using ensemble agreement as a confidence signal for model routing, 
           enabling cost reductions while maintaining or improving accuracy across diverse tasks.
@@ -143,17 +142,17 @@
 
       <div class="publication-item">
         <div class="pub-title">
-          <a href="https://arxiv.org/abs/2402.05406" target="_blank">
-            Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes
+          <a href="https://arxiv.org/abs/2509.21837" target="_blank">
+            Semantic Agreement Enables Efficient Open-Ended LLM Cascades
           </a>
         </div>
-        <div class="pub-authors">Steven Kolawole*, Lucio Dery*, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar</div>
-        <div class="pub-venue">Under Review, 2025</div>
-        <div class="pub-description" id="desc-3" style="display: none;">
-          Presents a forward-pass-only structured pruning method that outperforms gradient-based approaches 
-          while using significantly less memory, making model compression accessible on everyday hardware.
+        <div class="pub-authors">Duncan Soiffer, <span class="author-highlight">Steven Kolawole</span>, Virginia Smith</div>
+        <div class="pub-venue" title="Conference on Empirical Methods in Natural Language Processing">EMNLP 2025 Industry Track</div>
+        <div class="pub-description" id="desc-2" style="display: none;">
+          Extends agreement-based cascading to open-ended generation tasks, leveraging meaning-level consensus for cost-effective
+            routing of language model queries without requiring additional training data or model modifications.
         </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
+        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
       </div>
       
       <div class="publication-item">
@@ -162,13 +161,28 @@
             PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries
           </a>
         </div>
-        <div class="pub-authors">Steven Kolawole, Keshav Santhanam, Virginia Smith, Pratiksha Thaker</div>
-        <div class="pub-venue">Under review, 2025</div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>, Keshav Santhanam, Virginia Smith, Pratiksha Thaker</div>
+        <div class="pub-venue" title="Conference on Neural Information Processing Systems">NeurIPS 2025 D&B Track</div>
         <div class="pub-description" id="desc-1" style="display: none;">
           Introduces a benchmark revealing that 10% of natural user queries contain latent parallelism, 
           and demonstrates semantic decomposition methods for achieving speedups without hardware modifications.
         </div>
         <button class="read-more-btn" onclick="toggleDescription('desc-1', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          <a href="https://arxiv.org/abs/2402.05406" target="_blank">
+            Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes
+          </a>
+        </div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole*</span>, Lucio Dery*, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar</div>
+        <div class="pub-venue" title="Transactions of Machine Learning Research">TMLR 2025 (under review)</div>
+        <div class="pub-description" id="desc-3" style="display: none;">
+          Presents a forward-pass-only structured pruning method that outperforms gradient-based approaches 
+          while using significantly less memory, making model compression accessible on everyday hardware.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
       </div>
 
       <div class="read-more-button">
@@ -196,28 +210,28 @@
       <ul class="list">
         <li>
           Our paper,
-          <a href="#" target="_blank"
+          <a href="https://openreview.net/forum?id=1KSxxnFNb9" target="_blank"
             ><span style="color: rgb(10, 93, 128)"
-              >Training-Free Semantic Deferrals for Open-Ended LLM Cascades</span
+              >PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries</span
             ></a
-          >, was accepted into ES-FOMO, ICML. (Jun 2025)
+          >, was accepted at NeurIPS 2025, Datasets & Benchmarks Track. (Sep 2025)
         </li>
         <li>
           Our paper,
-          <a href="#" target="_blank"
+          <a href="https://openreview.net/forum?id=28bd6gvVO8" target="_blank"
             ><span style="color: rgb(10, 93, 128)"
-              >Privacy Isn't Free: Benchmarking the Systems Cost of Privacy-Preserving ML</span
+              >Semantic Agreement Enables Efficient Open-Ended LLM Cascades</span
             ></a
-          >, was accepted into ES-FOMO, ICML. Congrats to Emeka, Sam, Simi, and Ire (ML Collective folks)! (Jun 2025)
+          >, was accepted at EMNLP 2025, Industry Track. (Sep 2025)
         </li>
         <li>
-          Our paper preprint,
-          <a href="https://openreview.net/pdf?id=CZHt9kLS5S" target="_blank"
+          Our paper,
+          <a href="https://openreview.net/forum?id=jn9B7LMlzk" target="_blank"
             ><span style="color: rgb(10, 93, 128)"
-              >Extracting Parallelism from Large Language Model Queries</span
+              >Agreement-Based Cascading for Efficient Inference</span
             ></a
-          >, was accepted into AFM, NeurIPS. (Nov 2024)
-        </li>        
+          >, was accepted at TMLR. (July 2025)
+        </li>     
       </ul>
       <div class="read-more-button">
         <a href="news.html">More Updates</a>
@@ -254,7 +268,7 @@
       </p>
 
       <p style="text-align: justify">
-        Outside research, I enjoy powerlifting, amateur boxing, watching Liverpool FC matches, and reading diversely. 
+        Outside research, I enjoy powerlifting, amateur boxing, watching LFC matches, and reading diversely. 
         I'm always interested in conversations that bridge technical work with broader social impact.
       </p>
     </div>
