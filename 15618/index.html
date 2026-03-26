@@ -17,16 +17,20 @@
       <h1 class="header-name">15-618 Final Project</h1>
 
       <p style="text-align: center;">
-        <strong>Team:</strong> <!-- names here -->
+        <strong>Team:</strong> Steven Kolawole
       </p>
 
       <p style="text-align: justify;">
-        <!-- High-level project overview goes here. -->
+        We implement and optimize batched speculative decoding verification kernels in CUDA, targeting the parallelism
+        challenges that arise when verifying draft tokens across multiple sequences simultaneously; specifically warp
+        divergence, non-coalesced KV cache writes, and dynamic load imbalance caused by sequences accepting different
+        numbers of draft tokens at runtime. We profile these bottlenecks with Nsight Compute, implement optimizations
+        using warp-level primitives and prefix sums, and evaluate performance across batch sizes and acceptance rates on GPU.
       </p>
 
       <h2 class="category-title" style="margin-top: 2rem;">Reports</h2>
       <ul class="list">
-        <li><a href="#">Proposal</a> <span style="color: #888; font-size: 0.85rem;">— coming soon</span></li>
+        <li><a href="15618_proposal.pdf" target="_blank">Proposal</a></li>
         <li><a href="#">Milestone Report</a> <span style="color: #888; font-size: 0.85rem;">— coming soon</span></li>
         <li><a href="#">Final Report</a> <span style="color: #888; font-size: 0.85rem;">— coming soon</span></li>
       </ul>
