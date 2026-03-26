@@ -1,7 +1,7 @@
 const NEWS_ITEMS = [
   `<strong>[Mar 2026]</strong> I gave a guest lecture on model compression in CMU's <a href="https://wwcohen.github.io/10718_s2026/schedule.html" target="_blank"><span style="color: rgb(10, 93, 128)">10-718: ML in Practice</span></a>. Check my slides <a href="https://docs.google.com/presentation/d/12VLlAMGHEKXrYzZC8YAQa4ncxrSlzmeL/edit?slide=id.p1#slide=id.p1" target="_blank"><span style="color: rgb(10, 93, 128)">here</span></a>.`,
 
-  `<strong>[Jan 2026]</strong> Our paper, <a href="https://arxiv.org/abs/2509.07471" target="_blank"><span style="color: rgb(10, 93, 128)">From Scarcity to Efficiency: Investigating the Effects of Data Augmentation on African Machine Translation</span></a>, was accepted at <a href="https://lm4uc.github.io/2026/" target="_blank"><span style="color: rgb(10, 93, 128)">LM4UC@AAAI 2026</span></a> and published in Springer's CCIS series.`,
+  `<strong>[Dec 2025]</strong> Our paper, <a href="https://arxiv.org/abs/2509.07471" target="_blank"><span style="color: rgb(10, 93, 128)">From Scarcity to Efficiency: Investigating the Effects of Data Augmentation on African Machine Translation</span></a>, was accepted at <a href="https://lm4uc.github.io/2026/" target="_blank"><span style="color: rgb(10, 93, 128)">LM4UC@AAAI 2026</span></a> and published in Springer's CCIS series.`,
 
   `<strong>[Sep 2025]</strong> <a href="https://openreview.net/forum?id=1KSxxnFNb9" target="_blank"><span style="color: rgb(10, 93, 128)">PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries</span></a> was accepted at NeurIPS 2025, Datasets &amp; Benchmarks Track.`,
 
