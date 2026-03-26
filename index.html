@@ -188,46 +188,9 @@
       </div>
     </div>
 
-    <script>
-      function toggleDescription(descId, button) {
-        const desc = document.getElementById(descId);
-        const isHidden = desc.style.display === 'none';
-        
-        if (isHidden) {
-          desc.style.display = 'block';
-          button.textContent = 'Read less ▲';
-        } else {
-          desc.style.display = 'none';
-          button.textContent = 'Read more ▼';
-        }
-      }
-    </script>
-
     <div class="container">
       <h1 class="header-name">Recent Highlights</h1>
-      <ul class="list">
-        <li>
-          <strong>[Sep 2025]</strong> <a href="https://openreview.net/forum?id=1KSxxnFNb9" target="_blank"
-            ><span style="color: rgb(10, 93, 128)"
-              >PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries</span
-            ></a
-          > was accepted at NeurIPS 2025, Datasets & Benchmarks Track.
-        </li>
-        <li>
-          <strong>[Sep 2025]</strong> <a href="https://openreview.net/forum?id=28bd6gvVO8" target="_blank"
-            ><span style="color: rgb(10, 93, 128)"
-              >Semantic Agreement Enables Efficient Open-Ended LLM Cascades</span
-            ></a
-          > was accepted at EMNLP 2025, Industry Track.
-        </li>
-        <li>
-          <strong>[Jul 2025]</strong> <a href="https://openreview.net/forum?id=jn9B7LMlzk" target="_blank"
-            ><span style="color: rgb(10, 93, 128)"
-              >Agreement-Based Cascading for Efficient Inference</span
-            ></a
-          > was accepted at TMLR.
-        </li>     
-      </ul>
+      <ul class="list" id="news-list"></ul>
       <div class="read-more-button">
         <a href="news.html">More Updates</a>
       </div>
@@ -354,11 +317,14 @@
       </div>
     </footer>
 
+    <script src="assets/news.js"></script>
     <script>
+      renderNews('news-list', 3);
+
       function toggleDescription(descId, button) {
         const desc = document.getElementById(descId);
         const isHidden = desc.style.display === 'none';
-        
+
         if (isHidden) {
           desc.style.display = 'block';
           button.textContent = 'Read less ▲';
