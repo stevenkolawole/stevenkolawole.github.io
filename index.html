@@ -62,6 +62,7 @@
               <div class="department"><a href="https://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> & <a href="https://www.ml.cs.cmu.edu/" target="_blank">Machine Learning</a>,</div>
               <div class="department"><a href="https://www.cs.cmu.edu/" target="_blank">School of Computer Science</a></div>
               <div class="advisor-info">Advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Professor Virginia Smith</a></div>
+              <div class="advisor-info">Summer 2026: Applied Scientist Intern, <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a> — Inference Optimization Science</div>
             </div>
             <br />
             <div class="contact-details">
@@ -113,8 +114,9 @@
           can eliminate resource requirements that limit broader participation in AI development and deployment.
         </p>
         <p style="text-align: justify">
-          I'm currently investigating several interconnected approaches: agreement-based cascading methods for efficient model 
-          routing, semantic approaches to extracting parallelism from natural language queries, and forward-pass techniques for model compression. 
+          I'm currently investigating several interconnected approaches: agreement-based cascading methods for efficient model
+          routing, semantic approaches to extracting parallelism from natural language queries, forward-pass techniques for model
+          compression, memory-efficient KV-cache management for long-context reasoning, and compression for on-device (edge) deployment.
           My broader research vision centers on demonstrating that accessibility and performance are not opposing forces; that thoughtful design choices can achieve both.
         </p>
       </div>
@@ -122,6 +124,30 @@
 
     <div class="container">
       <h1 class="header-name">Selected Publications</h1>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          Epiphany-Aware KV Cache Eviction Without the Attention Matrix
+        </div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>, Virginia Smith</div>
+        <div class="pub-venue">under review (EMNLP 2026)</div>
+        <div class="pub-description" id="desc-4" style="display: none;">
+          Evicts KV-cache tokens by the change in the model's internal representation—read directly from the forward pass with no attention matrix—scaling to a 16× longer feasible context within standard FlashAttention inference stacks.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
+      </div>
+
+      <div class="publication-item">
+        <div class="pub-title">
+          What Survives When You Compress a Recursive Reasoner for the Edge?
+        </div>
+        <div class="pub-authors">Pearse Jim*, <span class="author-highlight">Steven Kolawole*</span>, Opegbemi M. Busoye, Glory Bagai, Virginia Smith</div>
+        <div class="pub-venue">under review (EMNLP 2026)</div>
+        <div class="pub-description" id="desc-5" style="display: none;">
+          Shows that aggressively compressing recursive reasoning models preserves local prediction but collapses global reasoning—an architectural failure—and recovers it with per-channel calibrated INT4, fitting models to multi-megabyte edge targets.
+        </div>
+        <button class="read-more-btn" onclick="toggleDescription('desc-5', this)" aria-expanded="false">Read more ▼</button>
+      </div>
 
       <div class="publication-item">
         <div class="pub-title">
@@ -211,7 +237,7 @@
         I lead 
         <a href="https://mlcollective.org/wiki/mlc-nigeria/" target="_blank"
           ><span style="color: rgb(10, 93, 128)">ML Collective Africa</span></a
-        >, a pan-African sub-community (~200 members) of 
+        >, a pan-African sub-community (262 members) of 
         <a href="https://mlcollective.org/" target="_blank"
           ><span style="color: rgb(10, 93, 128)">ML Collective</span></a>, fostering research outside formal academic structures. 
         We support under-served, early-career researchers through research focus groups, mentorship programs, research training, and resources---enabling members to publish at top venues despite limited institutional resources.</p>
@@ -302,7 +328,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <small> <b>Last Updated:</b> Dec, 2025 </small>
+        <small> <b>Last Updated:</b> Jun, 2026 </small>
         <small class="block">
           © Steven Kolawole. Shamelessly forked from
           <a href="https://orevaahia.github.io/" target="_blank"
