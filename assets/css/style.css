@@ -148,6 +148,32 @@ details.collapse[open] > summary { margin-bottom:1.1rem; }
 .bsc-photo img { width:100%; border-radius:8px; display:block; }
 .bsc-photo figcaption { color:var(--faint); font-size:0.82rem; margin-top:0.35rem; }
 
+/* ---------- buttons ---------- */
+.btn-row { display:flex; flex-wrap:wrap; gap:0.6rem; margin:1.2rem 0 0.2rem; }
+.btn { display:inline-flex; align-items:center; gap:0.4rem; font-size:0.9rem; font-weight:500;
+  padding:0.5rem 0.95rem; border-radius:7px; border:1px solid var(--accent); transition:all 150ms ease; }
+.btn-primary { background:var(--accent); color:#fff; }
+.btn-primary:hover { background:var(--accent-hover); color:#fff; text-decoration:none; }
+.btn-outline { background:transparent; color:var(--accent); }
+.btn-outline:hover { background:var(--accent); color:#fff; text-decoration:none; }
+
+/* ---------- social as labeled chips ---------- */
+.social { display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.9rem; }
+.social-item { display:inline-flex; align-items:center; gap:0.4rem; font-size:0.85rem; color:var(--muted);
+  border:1px solid var(--rule); border-radius:7px; padding:0.32rem 0.62rem; margin:0; }
+.social-item:hover { color:var(--accent); border-color:var(--accent); }
+.social-item i { font-size:0.95rem; }
+
+/* ---------- news list: marker + small-caps date ---------- */
+.list li { position:relative; padding-left:1.15rem; }
+.list li::before { content:"\25B8"; position:absolute; left:0; top:0.72rem; color:var(--accent); font-size:0.7rem; }
+.list li strong { font-variant:small-caps; letter-spacing:0.02em; }
+
+/* ---------- section heading: short green underline ---------- */
+.header-name { border-bottom:none; padding-bottom:0; }
+.header-name::after { content:""; display:block; width:2.4rem; height:2px; background:var(--accent);
+  margin-top:0.4rem; border-radius:1px; }
+
 /* ---------- responsive ---------- */
 @media (max-width:620px) {
   .page-intro { flex-direction:column-reverse; text-align:left; gap:1.2rem; align-items:flex-start; }

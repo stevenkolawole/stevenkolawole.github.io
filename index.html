@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
     <link rel="author" href="https://stevenkolawole.medium.com/" />
-  </head>
+    </head>
 
   <body>
     <header class="site-header">
@@ -45,21 +45,20 @@
             </div>
             <div class="contact-details">Email: skolawol[at]cs[dot]cmu[dot]edu</div>
             <div class="social">
-              <a class="social-item" href="https://scholar.google.com/citations?user=cekASD4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="ai ai-google-scholar-square" aria-hidden="true"></i></a>
-              <a class="social-item" href="https://github.com/stevenkolawole" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-              <a class="social-item" href="https://twitter.com/_stevenkolawole" target="_blank" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-              <a class="social-item" href="https://stevenkolawole.medium.com/" target="_blank" aria-label="Medium"><i class="fab fa-medium" aria-hidden="true"></i></a>
+              <a class="social-item" href="https://scholar.google.com/citations?user=cekASD4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="ai ai-google-scholar-square" aria-hidden="true"></i> Scholar</a>
+              <a class="social-item" href="https://github.com/stevenkolawole" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+              <a class="social-item" href="https://twitter.com/_stevenkolawole" target="_blank" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
             </div>
           </div>
           <div class="page-intro-item">
-            <img src="assets/img/steven_professional_crop.jpeg" alt="Steven Kolawole" class="roundImg" />
+            <img src="assets/img/steven_headshot.jpg" alt="Steven Kolawole" class="roundImg" />
           </div>
         </div>
 
         <!-- ===================== BIO ===================== -->
         <div class="bio">
-          <p>I'm a PhD student at CMU, grateful to be advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a>. I work on making large language models cheaper and faster to run, on everyday hardware and at production scale.</p>
-          <p>So far I've pruned LLMs with only forward passes (Bonsai), evicted from the KV cache without ever building the attention matrix (EpiKV), built cascades where cheap models handle most queries and only defer when they're unsure (ABC), and found the parallelism sitting in user prompts (ParallelPrompt). The general intuition behind my work so far is to notice and work with what's already there, instead of adding more machinery.</p>
+          <p>Hi 👋🏿 I'm a PhD student at CMU, grateful to be advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a>. I work on inference efficiency for LLMs, i.e., making them cheaper and faster to run, on everyday hardware and at production scale.</p>
+          <p>So far I've structurally pruned LLMs with forward passes alone, no gradients (Bonsai); evicted KV-cache entries by how a token's representation shifts, without ever materializing the attention matrix (EpiKV); built training-free cascades that escalate to a larger model only when cheaper ones disagree (ABC); and surfaced the latent parallelism hiding in everyday prompts (ParallelPrompt).</p>
           <p>This summer I'm at <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a>'s Science team, working with <a href="https://scholar.google.com/citations?hl=en&user=V_MKBgcAAAAJ" target="_blank">Nathan Pemberton</a> and <a href="https://www.amazon.science/author/kyle-ulrich" target="_blank">Kyle Ulrich</a> on speculative decoding.</p>
         </div>
       </div>
@@ -75,7 +74,7 @@
         <div class="pub-title"><a href="https://arxiv.org/abs/2402.05406" target="_blank">Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes</a> <span style="color:var(--muted);font-weight:400;">(Bonsai)</span></div>
         <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>*, Lucio Dery*, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar</div>
         <div class="pub-venue">arXiv, 2024</div>
-        <details class="pub-more"><summary>what it does</summary><div class="pub-description">Prunes LLMs using only forward passes, instead of the gradients backprop needs. It still matches gradient-based methods, and prunes 7-8B models on a single GPU.</div></details>
+        <details class="pub-more"><summary>what it does</summary><div class="pub-description">Prunes LLMs using only forward passes, instead of the gradients backprop needs. It still matches gradient-based methods, and prunes 7-8B models on a single commodity GPU.</div></details>
         <div class="pub-links"><a href="https://arxiv.org/abs/2402.05406" target="_blank">arXiv</a></div>
       </div>
 
@@ -93,7 +92,7 @@
         <div class="pub-title"><a href="https://arxiv.org/abs/2407.02348" target="_blank">Agreement-Based Cascading for Efficient Inference</a> <span style="color:var(--muted);font-weight:400;">(ABC)</span></div>
         <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>*, Don Dennis*, Ameet Talwalkar, Virginia Smith</div>
         <div class="pub-venue">TMLR, 2025</div>
-        <details class="pub-more"><summary>what it does</summary><div class="pub-description">Stacks models from cheap to expensive and only defers to a bigger one when the cheap ones disagree. No confidence scores, no trained router. It drops into an existing setup and cuts serving cost several-fold at the same accuracy.</div></details>
+        <details class="pub-more"><summary>what it does</summary><div class="pub-description">Stacks models from cheap to expensive and only defers to a bigger one when the cheap ones disagree. No confidence scores, no trained router, and no retraining for each new task or data distribution. It drops into an existing setup and cuts serving cost several-fold at the same accuracy.</div></details>
         <div class="pub-links"><a href="https://openreview.net/forum?id=jn9B7LMlzk" target="_blank">OpenReview</a> <a href="https://arxiv.org/abs/2407.02348" target="_blank">arXiv</a></div>
       </div>
 
@@ -130,12 +129,12 @@
         <summary><span class="sec">The <s>Four</s> Six Years of BSc.</span> <span class="quirk">the long, human version, if you're curious</span></summary>
         <figure class="bsc-photo">
           <img src="assets/img/steven_speaking.png" alt="Steven speaking at PyCon Italia" />
-          <figcaption>Speaking at PyCon Italia, one of the one million and one. :)</figcaption>
+          <figcaption>Speaking at PyCon Italia, one of the one million and one conferences. :)</figcaption>
         </figure>
       <p>Before CMU, I did my BSc in Computer Science at the <a href="https://funaab.edu.ng/" target="_blank">Federal University of Agriculture, Abeokuta</a> (FUNAAB), Nigeria, advised by <a href="https://ng.linkedin.com/in/abayomi-alli-adebayo-0943097b" target="_blank">Adebayo Abayomi-Alli</a>. Academic-union strikes and the COVID lockdown stretched a four-year degree into six. Fortunately, that gave me far more room than a typical undergrad to figure out what I actually cared about.</p>
       <p>I used it. Around 27 tech conferences across the globe, a pile of hackathons and internships, and, from early 2021, learning to do research independently with <a href="https://mlcollective.org/" target="_blank">ML Collective</a> (with cameos at <a href="https://www.masakhane.io/" target="_blank">Masakhane</a> and <a href="https://cohere.for.ai/" target="_blank">Cohere For AI</a>), mentored by <a href="https://rosanneliu.com/" target="_blank">Rosanne Liu</a> and <a href="https://yosinski.com/" target="_blank">Jason Yosinski</a>. My first finished project, on sign-language understanding, won the Nigeria Computer Society's National AI Champion award; later, friends and I built a real-time opinion-mining system for digital assets and won a <a href="https://www.algorand.foundation/news/social-media-analytics-platform-asalytics-receives-algorand-foundation-grant-award/" target="_blank">~$115K Algorand Foundation grant</a> to ship it, which let me keep doing independent research without worrying much about rent. :)</p>
       <p>I'm a "community-taught" ML practitioner, so a lot of those years went to giving back: Data Science Nigeria, Google Developer Student Clubs, She Code Africa, NACOS, and ML Collective. That unconventional path of building research capability outside formal structures is exactly what drives my work on AI efficiency and accessibility, and my community-building efforts.</p>
-      <p>For the human record: in the earliest years I directed choirs at local churches (vocals, drums, piano); my BSc was also roundly punctuated by real existential crises <a href="https://stevenkolawole.medium.com/summiting-2022-a-mountain-climb-through-the-ugly-and-the-bad-9947977432a4/" target="_blank">[1</a>, <a href="https://medium.com/@stevenkolawole/in-my-journals-the-mountains-we-climb-c8b349ff3a12/" target="_blank">2]</a>; and my final year saw me trade award-worthy social awkwardness for a minor reputation as a local clown, obsessively fine-tuning my Afro-pop dance moves. But I did become a reveler, though.</p>
+      <p>For the human record: in the earliest years I directed choirs at local churches (vocals, drums, piano); my BSc was also roundly punctuated by real existential crises <a href="https://stevenkolawole.medium.com/summiting-2022-a-mountain-climb-through-the-ugly-and-the-bad-9947977432a4/" target="_blank">[1</a>, <a href="https://medium.com/@stevenkolawole/in-my-journals-the-mountains-we-climb-c8b349ff3a12/" target="_blank">2]</a>; and my final year saw me trade award-worthy social awkwardness for a minor reputation as a local clown, obsessively fine-tuning my Afro-pop dance moves and embracing the reveler lifestyle.</p>
       </details>
     </div>
 

@@ -1,11 +1,13 @@
 const NEWS_ITEMS = [
+  `<strong>[Jun 2026]</strong> I'll be organizing a <a href="https://ml-collective-africa.github.io/dl-indaba-2026/" target="_blank">workshop</a> on building agentic AI in Africa, <em>Whose Intelligence? Building Agentic AI in Africa without Frontier Model Dependency</em>, at the <a href="https://deeplearningindaba.com/2026/" target="_blank">Deep Learning Indaba</a> (Lagos).`,
+
+  `<strong>[Jun 2026]</strong> I'll be teaching a skills session, <em>Doing ML Research from the Margins</em>, at the <a href="https://deeplearningindaba.com/2026/" target="_blank">Deep Learning Indaba</a> (Lagos).`,
+
   `<strong>[May 2026]</strong> I'm starting my summer role at <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a>'s Science team, working on speculative decoding for efficient inference. Fun times!`,
 
-  `<strong>[May 2026]</strong> I'll be organizing a <a href="https://ml-collective-africa.github.io/dl-indaba-2026/" target="_blank">workshop</a> on building agentic AI in Africa, <em>Whose Intelligence? Building Agentic AI in Africa without Frontier Model Dependency</em>, at the <a href="https://deeplearningindaba.com/2026/" target="_blank">Deep Learning Indaba</a> (Lagos).`,
-
-  `<strong>[May 2026]</strong> I'll be teaching a skills session, <em>Doing ML Research from the Margins</em>, at the <a href="https://deeplearningindaba.com/2026/" target="_blank">Deep Learning Indaba</a> (Lagos).`,
-
   `<strong>[May 2026]</strong> I gave a talk at <a href="https://indabaxng.github.io/" target="_blank">IndabaX Nigeria</a> (University of Ibadan): a state-of-the-art overview of efficient AI and what it means for Africa. <a href="https://docs.google.com/presentation/d/1hLY94AmWbORSOQo8Xk-oj_SaiN3G7MXg8w5jBZ2K01c/edit?usp=sharing" target="_blank">Slides</a>.`,
+
+  `<strong>[Apr 2026]</strong> I was selected to participate in the <a href="https://cfe.columbia.edu/content/mlss2" target="_blank">Machine Learning Summer School (MLSS)</a> at Columbia University, New York, fully funded.`,
 
   `<strong>[Mar 2026]</strong> I gave a guest lecture on model compression in CMU's <a href="https://wwcohen.github.io/10718_s2026/schedule.html" target="_blank"><span style="color: #225c3b">10-718: ML in Practice</span></a>. Check my slides <a href="https://docs.google.com/presentation/d/12VLlAMGHEKXrYzZC8YAQa4ncxrSlzmeL/edit?slide=id.p1#slide=id.p1" target="_blank"><span style="color: #225c3b">here</span></a>.`,
 
@@ -25,7 +27,7 @@ const NEWS_ITEMS = [
 
   `<strong>[Jun 2024]</strong> Our preprint, <a href="https://openreview.net/forum?id=SjGmChKOee" target="_blank"><span style="color: #225c3b">Revisiting Cascaded Ensembles for Efficient Inference</span></a>, was accepted into ES-FOMO, ICML.`,
 
-  `<strong>[May 2024]</strong> I taught a low-resource LLM <a href="https://github.com/deep-learning-indaba/indaba-pracs-2024/blob/main/practicals/Low_Resource_LLMs/Indaba_2024_Low_Resource_LLM.ipynb" target="_blank">practical</a> at the <a href="https://deeplearningindaba.com/2024/" target="_blank">Deep Learning Indaba</a> (Senegal).`,
+  `<strong>[May 2024]</strong> I'll be teaching a low-resource LLM <a href="https://github.com/deep-learning-indaba/indaba-pracs-2024/tree/main/practicals/Low_Resource_LLMs" target="_blank">practical</a> at the <a href="https://deeplearningindaba.com/2024/" target="_blank">Deep Learning Indaba</a> (Senegal).`,
 
   `<strong>[Apr 2024]</strong> Our preprint, <a href="https://arxiv.org/abs/2404.04759" target="_blank"><span style="color: #225c3b">What Happens When Small Is Made Smaller? Exploring the Impact of Compression on Small Data Pretrained Language Models</span></a>, was accepted into AfricaNLP, ICLR.`,
 
