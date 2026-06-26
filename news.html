@@ -1,34 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Steven's Recent Highlights</title>
+    <title>News · Steven Kolawole</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
   </head>
 
   <body>
     <header class="site-header">
       <nav class="nav">
         <div class="container flex-wrap">
-          <h1 class="logo">
-            <a href="https://stevenkolawole.github.io/">Steven Kolawole</a>
-          </h1>
+          <h1 class="logo"><a href="https://stevenkolawole.github.io/">Steven Kolawole</a></h1>
           <ul class="navbar">
             <li><a href="index.html">About</a></li>
             <li><a href="publications.html">Publications</a></li>
-            <li><a href="news.html" class="active">Recent Highlights</a></li>
+            <li><a href="news.html" class="active">News</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="assets/docs/Steven_Kolawole_CV.pdf" target="_blank">CV</a></li>
           </ul>
@@ -37,9 +26,16 @@
     </header>
 
     <div class="page container">
-      <h1 class="header-name">Recent Highlights</h1>
+      <h1 class="header-name">News</h1>
       <ul class="list" id="news-list"></ul>
     </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small><b>Last updated:</b> June 2026</small>
+        <small class="block">© Steven Kolawole · hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</small>
+      </div>
+    </footer>
 
     <script src="news.js"></script>
     <script>renderNews('news-list');</script>
