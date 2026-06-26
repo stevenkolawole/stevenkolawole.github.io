@@ -3,373 +3,145 @@
   <head>
     <title>Steven Kolawole</title>
     <meta charset="utf-8" />
-    <meta
-      name="google-site-verification"
-      content="x90m5dgpe4F2vr3QIo56ycq2CR3JKLvZvqDGZ25jIss"
-    />
+    <meta name="google-site-verification" content="x90m5dgpe4F2vr3QIo56ycq2CR3JKLvZvqDGZ25jIss" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Steven Kolawole - PhD student at CMU exploring efficiency problems in machine learning from systems, algorithms, and data perspectives to make AI more accessible."
-    />
-    <meta
-      name="keywords"
-      content="Steven Kolawole, efficient ML, AI accessibility, CMU, resource-constrained ML"
-    />
+    <meta name="description" content="Steven Kolawole — PhD student at Carnegie Mellon working on the efficiency of large language model inference: making capable models cheaper and faster to run, from everyday hardware to production-scale serving." />
+    <meta name="keywords" content="Steven Kolawole, efficient ML, LLM inference, model compression, KV cache, cascading, CMU" />
+    <meta property="og:title" content="Steven Kolawole" />
+    <meta property="og:description" content="PhD student at CMU working on the efficiency of large language model inference." />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
     <link rel="author" href="https://stevenkolawole.medium.com/" />
-    <link rel="author" href="https://www.linkedin.com/in/steven-kolawole-80/" />
   </head>
 
   <body>
     <header class="site-header">
       <nav class="nav">
         <div class="container flex-wrap">
-          <h1 class="logo">
-            <a href="https://stevenkolawole.github.io">Steven Kolawole</a>
-          </h1>
+          <h1 class="logo"><a href="https://stevenkolawole.github.io">Steven Kolawole</a></h1>
           <ul class="navbar">
             <li><a href="index.html" class="active">About</a></li>
             <li><a href="publications.html">Publications</a></li>
-            <li><a href="news.html">Recent Highlights</a></li>
+            <li><a href="news.html">News</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="assets/docs/Steven_Kolawole_CV.pdf" target="_blank">CV</a></li>
           </ul>
         </div>
       </nav>
     </header>
-    
+
     <article class="page container">
       <div class="page-content">
+
+        <!-- ===================== INTRO ===================== -->
         <div class="page-intro">
           <div class="page-intro-item">
             <div class="contact-header">
               <strong>Steven Kolawole</strong>
               <div class="academic-affiliation">PhD Student, Carnegie Mellon University</div>
-              <div class="department"><a href="https://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> & <a href="https://www.ml.cs.cmu.edu/" target="_blank">Machine Learning</a>,</div>
-              <div class="department"><a href="https://www.cs.cmu.edu/" target="_blank">School of Computer Science</a></div>
+              <div class="department"><a href="https://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a> &amp; <a href="https://www.ml.cs.cmu.edu/" target="_blank">Machine Learning</a>, <a href="https://www.cs.cmu.edu/" target="_blank">School of Computer Science</a></div>
               <div class="advisor-info">Advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Professor Virginia Smith</a></div>
               <div class="advisor-info">Summer 2026: Applied Scientist Intern, <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a> — Science Team</div>
             </div>
-            <br />
-            <div class="contact-details">
-              Email: <a href="#">skolawol[at]cs[dot]cmu[dot]edu</a>
-            </div>
-            
+            <div class="contact-details">Email: skolawol[at]cs[dot]cmu[dot]edu</div>
             <div class="social">
-              <a
-                class="social-item"
-                href="https://scholar.google.com/citations?user=cekASD4AAAAJ&hl=en"
-                target="_blank"
-                aria-label="Google Scholar Profile"
-              >
-                <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
-              </a>
-              <a
-                class="social-item"
-                href="https://github.com/stevenkolawole"
-                target="_blank"
-                aria-label="GitHub Profile"
-              >
-                <i class="fab fa-github" aria-hidden="true"></i>
-              </a>
-              <a
-                class="social-item"
-                href="https://twitter.com/_stevenkolawole"
-                target="_blank"
-                aria-label="Twitter Profile"
-              >
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-              </a>
+              <a class="social-item" href="https://scholar.google.com/citations?user=cekASD4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="ai ai-google-scholar-square" aria-hidden="true"></i></a>
+              <a class="social-item" href="https://github.com/stevenkolawole" target="_blank" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a class="social-item" href="https://twitter.com/_stevenkolawole" target="_blank" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a class="social-item" href="https://stevenkolawole.medium.com/" target="_blank" aria-label="Medium"><i class="fab fa-medium" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="page-intro-item">
-            <img
-              src="assets/img/steven_speaking.png"
-              alt="Steven Kolawole"
-              width="250"
-              height="250"
-              class="roundImg"
-            />
+            <img src="assets/img/steven_professional_crop.jpeg" alt="Steven Kolawole" class="roundImg" />
           </div>
         </div>
-        <p>Hi, welcome to my website! :)</p>
-        
-        <h1 class="header-name">Research</h1>
-        <p style="text-align: justify">
-          My research explores efficiency problems in machine learning systems, focusing on how intelligent algorithmic design 
-          can eliminate resource requirements that limit broader participation in AI development and deployment.
-        </p>
-        <p style="text-align: justify">
-          I'm currently investigating several interconnected approaches: agreement-based cascading methods for efficient model
-          routing, semantic approaches to extracting parallelism from natural language queries, forward-pass techniques for model
-          compression, memory-efficient KV-cache management for long-context reasoning, and compression for on-device (edge) deployment.
-          My broader research vision centers on demonstrating that accessibility and performance are not opposing forces; that thoughtful design choices can achieve both.
-        </p>
+
+        <!-- ===================== BIO ===================== -->
+        <div class="bio">
+          <p>I'm a PhD student at Carnegie Mellon, advised by Virginia Smith, working on the efficiency of large language model inference — making capable models <strong>cheaper and faster to run</strong>, from everyday hardware to production-scale serving. A thread through much of my work: recovering what you need from what the forward pass already computes — to prune a model, route it, or shrink its memory.</p>
+          <p>This summer, I'm on <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a>'s Science team, working with Nathan Pemberton and Kyle Ulrich on inference optimization for speculative-decoding serving.</p>
+        </div>
       </div>
     </article>
 
+    <!-- ===================== SELECTED PUBLICATIONS ===================== -->
     <div class="container">
       <h1 class="header-name">Selected Publications</h1>
+      <p class="research-threads">Four threads — compression, adaptive serving, KV-cache, and parallelism — most sharing one instinct: read what you need from the forward pass. <a href="publications.html">Full list →</a></p>
 
       <div class="publication-item">
-        <div class="pub-title">
-          Epiphany-Aware KV Cache Eviction Without the Attention Matrix
-        </div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2606.26488" target="_blank">Epiphany-Aware KV Cache Eviction Without the Attention Matrix</a></div>
         <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>, Virginia Smith</div>
-        <div class="pub-venue">under review (EMNLP 2026)</div>
-        <div class="pub-description" id="desc-4" style="display: none;">
-          Evicts KV-cache tokens by the change in the model's internal representation—read directly from the forward pass with no attention matrix—scaling to a 16× longer feasible context within standard FlashAttention inference stacks.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-4', this)" aria-expanded="false">Read more ▼</button>
+        <div class="pub-venue">preprint, 2026</div>
+        <div class="pub-description">Evicts KV-cache tokens by the change in the model's internal representation — read straight from the forward pass, with no attention matrix — extending the feasible context several-fold inside standard FlashAttention stacks.</div>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2606.26488" target="_blank">arXiv</a></div>
       </div>
 
       <div class="publication-item">
-        <div class="pub-title">
-          What Survives When You Compress a Recursive Reasoner for the Edge?
-        </div>
-        <div class="pub-authors">Pearse Jim*, <span class="author-highlight">Steven Kolawole*</span>, Opegbemi M. Busoye, Glory Bagai, Virginia Smith</div>
-        <div class="pub-venue">under review (EMNLP 2026)</div>
-        <div class="pub-description" id="desc-5" style="display: none;">
-          Shows that aggressively compressing recursive reasoning models preserves local prediction but collapses global reasoning—an architectural failure—and recovers it with per-channel calibrated INT4, fitting models to multi-megabyte edge targets.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-5', this)" aria-expanded="false">Read more ▼</button>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2402.05406" target="_blank">Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes</a> <span style="color:var(--muted);font-weight:400;">(Bonsai)</span></div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>*, Lucio Dery*, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar</div>
+        <div class="pub-venue">arXiv, 2024</div>
+        <div class="pub-description">Forward-pass-only structured pruning that outperforms gradient-based methods at a fraction of the memory — making LLM compression feasible on everyday hardware.</div>
+        <div class="pub-links"><a href="https://arxiv.org/abs/2402.05406" target="_blank">arXiv</a></div>
       </div>
 
       <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://arxiv.org/abs/2407.02348" target="_blank">
-            Agreement-Based Cascading for Efficient Inference
-          </a>
-        </div>
-        <div class="pub-authors"><span class="author-highlight">Steven Kolawole*</span>, Don Dennis*, Ameet Talwalkar, Virginia Smith</div>
-        <div class="pub-venue" title="Transactions of Machine Learning Research">TMLR 2025</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
-          Develops a training-free cascading framework using ensemble agreement as a confidence signal for model routing, 
-          enabling cost reductions while maintaining or improving accuracy across diverse tasks.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2407.02348" target="_blank">Agreement-Based Cascading for Efficient Inference</a></div>
+        <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>*, Don Dennis*, Ameet Talwalkar, Virginia Smith</div>
+        <div class="pub-venue">TMLR, 2025</div>
+        <div class="pub-description">A training-free cascade that uses agreement across an ensemble as a confidence signal for routing — cutting inference cost several-fold while holding or improving accuracy.</div>
+        <div class="pub-links"><a href="https://openreview.net/forum?id=jn9B7LMlzk" target="_blank">OpenReview</a> <a href="https://arxiv.org/abs/2407.02348" target="_blank">arXiv</a></div>
       </div>
 
       <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://arxiv.org/abs/2509.21837" target="_blank">
-            Semantic Agreement Enables Efficient Open-Ended LLM Cascades
-          </a>
-        </div>
-        <div class="pub-authors">Duncan Soiffer, <span class="author-highlight">Steven Kolawole</span>, Virginia Smith</div>
-        <div class="pub-venue" title="Conference on Empirical Methods in Natural Language Processing">EMNLP 2025 Industry Track</div>
-        <div class="pub-description" id="desc-2" style="display: none;">
-          Extends agreement-based cascading to open-ended generation tasks, leveraging meaning-level consensus for cost-effective
-            routing of language model queries without requiring additional training data or model modifications.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-2', this)"  aria-expanded="false">Read more ▼</button>
-      </div>
-      
-      <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://arxiv.org/abs/2506.18728" target="_blank">
-            PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries
-          </a>
-        </div>
+        <div class="pub-title"><a href="https://arxiv.org/abs/2506.18728" target="_blank">ParallelPrompt: Extracting Parallelism from Large Language Model Queries</a></div>
         <div class="pub-authors"><span class="author-highlight">Steven Kolawole</span>, Keshav Santhanam, Virginia Smith, Pratiksha Thaker</div>
-        <div class="pub-venue" title="Conference on Neural Information Processing Systems">NeurIPS 2025 D&B Track</div>
-        <div class="pub-description" id="desc-1" style="display: none;">
-          Introduces a benchmark revealing that 10% of natural user queries contain latent parallelism, 
-          and demonstrates semantic decomposition methods for achieving speedups without hardware modifications.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-1', this)" aria-expanded="false">Read more ▼</button>
+        <div class="pub-venue">NeurIPS 2025, Datasets &amp; Benchmarks Track</div>
+        <div class="pub-description">Builds a benchmark showing ~10% of real user queries carry latent parallelism, and decomposes them for substantial latency wins with no hardware changes.</div>
+        <div class="pub-links"><a href="https://openreview.net/forum?id=1KSxxnFNb9" target="_blank">OpenReview</a> <a href="https://arxiv.org/abs/2506.18728" target="_blank">arXiv</a></div>
       </div>
 
-      <div class="publication-item">
-        <div class="pub-title">
-          <a href="https://arxiv.org/abs/2402.05406" target="_blank">
-            Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes
-          </a>
-        </div>
-        <div class="pub-authors"><span class="author-highlight">Steven Kolawole*</span>, Lucio Dery*, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar</div>
-        <div class="pub-venue">arXiv 2024 — cited by NVIDIA, Apple, and Baidu</div>
-        <div class="pub-description" id="desc-3" style="display: none;">
-          Presents a forward-pass-only structured pruning method that outperforms gradient-based approaches 
-          while using significantly less memory, making model compression accessible on everyday hardware.
-        </div>
-        <button class="read-more-btn" onclick="toggleDescription('desc-3', this)" aria-expanded="false">Read more ▼</button>
-      </div>
-
-      <div class="read-more-button">
-        <a href="publications.html">Complete Publication List</a>
-      </div>
+      <div class="read-more-button"><a href="publications.html">Complete publication list</a></div>
     </div>
 
+    <!-- ===================== NEWS ===================== -->
     <div class="container">
-      <h1 class="header-name">Recent Highlights</h1>
+      <h1 class="header-name">News</h1>
       <ul class="list" id="news-list"></ul>
-      <div class="read-more-button">
-        <a href="news.html">More Updates</a>
-      </div>
+      <div class="read-more-button"><a href="news.html">More updates</a></div>
     </div>
 
+    <!-- ===================== COMMUNITY ===================== -->
     <div class="container">
-      <h1 class="header-name">Community Impact</h1>
-      <p style="text-align: justify">
-        My commitment to making AI research more accessible extends beyond algorithmic contributions to building 
-        infrastructure for inclusive participation. From 2023 to 2025, I mentored 20+ underrepresented graduate-school
-        aspirants at
-        <a href="https://stemfordevelopment.org/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">STEM for Development</span></a
-        >, helping them clarify research goals and optimize their applications for Western graduate programs.
-      </p>
-
-      <p style="text-align: justify">
-        I lead 
-        <a href="https://mlcollective.org/wiki/mlc-nigeria/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">ML Collective Africa</span></a
-        >, a pan-African sub-community (264 members) of
-        <a href="https://mlcollective.org/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">ML Collective</span></a>, fostering research outside formal academic structures. 
-        We support under-served, early-career researchers through research focus groups, mentorship programs, research training, and resources---enabling members to publish at top venues despite limited institutional resources.</p>
-
-      <p style="text-align: justify">
-        I have organized annual fundraisers since 2022 enabling African student researchers to attend <a href="https://deeplearningindaba.com/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">Deep Learning Indaba</span></a
-        > and 
-        occasionally contribute to <a href="https://www.blackinai.org/our-work/emerging-leaders-in-ai-elai-grad-prep-program/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">Black in AI's ELAI program</span></a
-        >. During my undergraduate 
-        years, I helped organize dozens of technical training programs impacting over 3,000 students and personally taught several 
-        hundred students in machine learning, data science, and technical skills.
-      </p>
-
-      <p style="text-align: justify">
-        Outside research, I enjoy powerlifting, amateur boxing, watching LFC matches, and reading diversely. 
-        I'm always interested in conversations that bridge technical work with broader social impact.
-      </p>
+      <h1 class="header-name">Community</h1>
+      <p>I lead <a href="https://mlcollective.org/wiki/mlc-nigeria/" target="_blank">ML Collective Africa</a>, a pan-African sub-community (264 members) of <a href="https://mlcollective.org/" target="_blank">ML Collective</a>, where we support under-served, early-career researchers through research focus groups, mentorship, training, and compute — helping members publish at top venues despite limited institutional resources. Since 2022 I've organized annual fundraisers that send African students to the <a href="https://deeplearningindaba.com/" target="_blank">Deep Learning Indaba</a>, and I occasionally contribute to <a href="https://www.blackinai.org/our-work/emerging-leaders-in-ai-elai-grad-prep-program/" target="_blank">Black in AI's ELAI program</a>.</p>
+      <p>From 2023 to 2025, I mentored 20+ underrepresented graduate-school aspirants at <a href="https://stemfordevelopment.org/" target="_blank">STEM for Development</a>. During undergrad, I helped run dozens of technical training programs reaching 3,000+ students and personally taught several hundred.</p>
+      <p>Outside research, I enjoy powerlifting, amateur boxing, watching LFC matches, and reading widely. I'm always up for conversations that connect technical work with broader social impact.</p>
     </div>
 
+    <!-- ===================== THE SIX YEARS OF BSc ===================== -->
     <div class="container">
       <h1 class="header-name">The <s>Four</s> Six Years of BSc.</h1>
-      <p style="text-align: justify">
-        Before joining CMU, I completed my BSc in Computer Science at the 
-        <a href="https://funaab.edu.ng/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)"
-            >Federal University of Agriculture Abeokuta</span
-          ></a
-        >, Nigeria, advised by
-        <a
-          href="https://ng.linkedin.com/in/abayomi-alli-adebayo-0943097b"
-          target="_blank"
-          ><span style="color: rgb(10, 93, 128)"
-            >Dr. Adebayo Abayomi-Alli</span
-          ></a
-        >. Academic union strike actions and COVID-19 lockdown extended my bachelor's degree timeline. 
-        Fortunately, this gave me more time than a typical undergraduate to refine my interests 
-        beyond what my immediate environment offered and also amass an eclectic mix of fulfilling experiences.
-      </p>
-      <p style="text-align: justify">
-        I had ample time to participate in several hackathons and internships, and I regularly spoke on tools and topics 
-        I liked across different parts of the globe, totaling around 27 tech conferences. In early 2021, I started learning to be an independent researcher 
-        with <a href="https://mlcollective.org/" target="_blank"
-        ><span style="color: rgb(10, 93, 128)">ML Collective</span></a
-      >
-      (and made cameo appearances at
-      <a href="https://www.masakhane.io/" target="_blank"
-        ><span style="color: rgb(10, 93, 128)">Masakhane</span></a
-      >
-      and
-      <a href="https://cohere.for.ai/" target="_blank"
-        ><span style="color: rgb(10, 93, 128)">Cohere For AI</span></a
-      >), where I am fortunate to be primarily mentored by  
-      <a href="https://rosanneliu.com/" target="_blank"
-        ><span style="color: rgb(10, 93, 128)">Dr. Rosanne Liu</span></a
-      >
-      and
-      <a href="https://yosinski.com/" target="_blank"
-        ><span style="color: rgb(10, 93, 128)">Dr. Jason Yosinski</span></a
-      >. 
-      In the following year, my first completed research project (on sign language understanding) earned me the national AI champion award at the Nigeria Computer Society's AI Summit, 
-      held at Lafia's Government House.
-        Toward the end, I (along with my friends) designed a real-time opinion mining system for digital assets and secured a 
-      <a href="https://www.algorand.foundation/news/social-media-analytics-platform-asalytics-receives-algorand-foundation-grant-award/" target="_blank"
-      ><span style="color: rgb(10, 93, 128)">115k USD grant</span></a
-    > to bring it to life. This enabled me to focus on exploring independent research without worrying much about my living expenses.
-      </p>
-      <p style="text-align: justify">
-        I am a "community-taught" ML practitioner; hence, much of those years were dedicated to giving back to our tech communities, 
-        including Data Science Nigeria, Google Developer Student Club, She Code Africa, the National Association of Computing Students, 
-        and ML Collective. This unconventional path—learning and building research capabilities outside formal structures—directly 
-        informs my current work on eliminating barriers to AI accessibility. 
-      </p>
-      <p style="text-align: justify">
-        During the earliest years, I had stints as a choir director at my local churches, majoring on vocals, drums, and piano. 
-        My BSc years were roundly punctuated by existential crises 
-        <a href="https://stevenkolawole.medium.com/summiting-2022-a-mountain-climb-through-the-ugly-and-the-bad-9947977432a4/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">[1</span></a
-        >,
-        <a href="https://medium.com/@stevenkolawole/in-my-journals-the-mountains-we-climb-c8b349ff3a12/" target="_blank"
-          ><span style="color: rgb(10, 93, 128)">2]</span></a
-        >. 
-        My final year was spent transitioning from award-worthy social awkwardness to an unexpected reputation as a local clown, 
-        all while obsessively fine-tuning my Afro-pop dance skills and embracing the reveler lifestyle.
-      </p>
+      <p>Before CMU, I did my BSc in Computer Science at the <a href="https://funaab.edu.ng/" target="_blank">Federal University of Agriculture, Abeokuta</a> (FUNAAB), Nigeria, advised by <a href="https://ng.linkedin.com/in/abayomi-alli-adebayo-0943097b" target="_blank">Dr. Adebayo Abayomi-Alli</a>. Academic-union strikes and the COVID lockdown stretched a four-year degree into six — which, fortunately, gave me far more room than a typical undergrad to figure out what I actually cared about.</p>
+      <p>I used it. Around 27 tech conferences across the globe, a pile of hackathons and internships, and — from early 2021 — learning to do research independently with <a href="https://mlcollective.org/" target="_blank">ML Collective</a> (with cameos at <a href="https://www.masakhane.io/" target="_blank">Masakhane</a> and <a href="https://cohere.for.ai/" target="_blank">Cohere For AI</a>), mentored by <a href="https://rosanneliu.com/" target="_blank">Dr. Rosanne Liu</a> and <a href="https://yosinski.com/" target="_blank">Dr. Jason Yosinski</a>. My first finished project, on sign-language understanding, won the Nigeria Computer Society's National AI Champion award; later, friends and I built a real-time opinion-mining system for digital assets and won a <a href="https://www.algorand.foundation/news/social-media-analytics-platform-asalytics-receives-algorand-foundation-grant-award/" target="_blank">~$115K Algorand Foundation grant</a> to ship it — which let me keep doing independent research without worrying much about rent.</p>
+      <p>I'm a "community-taught" ML practitioner, so a lot of those years went to giving back — Data Science Nigeria, Google Developer Student Clubs, She Code Africa, NACOS, and ML Collective. That unconventional path — building research capability outside formal structures — is exactly what drives my work on lowering the barriers to AI today.</p>
+      <p>For the human record: in the earliest years I directed choirs at local churches (vocals, drums, piano); my BSc was also roundly punctuated by real existential crises <a href="https://stevenkolawole.medium.com/summiting-2022-a-mountain-climb-through-the-ugly-and-the-bad-9947977432a4/" target="_blank">[1</a>, <a href="https://medium.com/@stevenkolawole/in-my-journals-the-mountains-we-climb-c8b349ff3a12/" target="_blank">2]</a>; and my final year saw me trade award-worthy social awkwardness for a minor reputation as a local clown, obsessively fine-tuning my Afro-pop dance moves.</p>
+      <figure style="margin:1.4rem 0 0;">
+        <img src="assets/img/steven_speaking.png" alt="Steven speaking at PyCon" style="width:100%;max-width:520px;border-radius:8px;display:block;" />
+        <figcaption style="color:var(--faint);font-size:0.85rem;margin-top:0.4rem;">Speaking at PyCon — one of those ~27 conferences.</figcaption>
+      </figure>
     </div>
 
     <footer class="site-footer">
       <div class="container">
-        <small> <b>Last Updated:</b> Jun, 2026 </small>
-        <small class="block">
-          © Steven Kolawole. Shamelessly forked from
-          <a href="https://orevaahia.github.io/" target="_blank"
-            ><span style="color: rgb(10, 93, 128)">Oreva Ahia's page</span></a
-          >· &lt;/&gt; Powered by
-          <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
-          <a href="https://github.com/heiswayi/thinkspace" target="_blank"
-            >Thinkspace</a
-          >; hosted on
-          <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-        </small>
+        <small><b>Last updated:</b> June 2026</small>
+        <small class="block">© Steven Kolawole · forked from <a href="https://orevaahia.github.io/" target="_blank">Oreva Ahia's page</a> · hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</small>
       </div>
     </footer>
 
     <script src="news.js"></script>
-    <script>
-      renderNews('news-list', 3);
-
-      function toggleDescription(descId, button) {
-        const desc = document.getElementById(descId);
-        const isHidden = desc.style.display === 'none';
-
-        if (isHidden) {
-          desc.style.display = 'block';
-          button.textContent = 'Read less ▲';
-          button.setAttribute('aria-expanded', 'true');
-        } else {
-          desc.style.display = 'none';
-          button.textContent = 'Read more ▼';
-          button.setAttribute('aria-expanded', 'false');
-        }
-      }
-
-      // Initialize buttons with proper ARIA attributes on page load
-      document.addEventListener('DOMContentLoaded', function() {
-        const buttons = document.querySelectorAll('.read-more-btn');
-        buttons.forEach(button => {
-          const isExpanded = button.textContent.includes('less');
-          button.setAttribute('aria-expanded', isExpanded.toString());
-        });
-      });
-    </script>
+    <script>renderNews('news-list', 4);</script>
   </body>
 </html>
