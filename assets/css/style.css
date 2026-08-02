@@ -43,7 +43,7 @@ s { color:var(--faint); }
 /* ---------- header / nav ---------- */
 .site-header { border-bottom:1px solid var(--rule); margin-bottom:2.2rem; }
 .nav .container { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem; padding-top:1.1rem; padding-bottom:1.1rem; }
-.logo { font-size:1.15rem; }
+.logo { font-size:1.15rem; line-height:1.25; }
 .logo a { font-family:var(--serif); font-weight:700; color:var(--ink); }
 .logo a:hover { color:var(--accent); text-decoration:none; }
 .navbar { list-style:none; display:flex; flex-wrap:wrap; gap:1.25rem; margin:0; }
@@ -54,7 +54,7 @@ s { color:var(--faint); }
 .page-intro { display:flex; gap:2rem; align-items:center; margin-bottom:1.6rem; }
 .page-intro-item:first-child { flex:1; }
 .roundImg { border-radius:50%; width:170px; height:170px; object-fit:cover; display:block; }
-.contact-header strong { font-family:var(--serif); font-size:1.7rem; font-weight:700; color:var(--ink); display:block; margin-bottom:0.35rem; }
+.contact-header h1, .contact-header strong { font-family:var(--serif); font-size:1.7rem; font-weight:700; color:var(--ink); display:block; margin-bottom:0.35rem; line-height:1.25; }
 .academic-affiliation { font-weight:600; color:var(--ink); }
 .department, .advisor-info { color:var(--muted); font-size:0.95rem; line-height:1.5; }
 .contact-details { margin-top:0.5rem; color:var(--muted); font-size:0.95rem; }
@@ -114,9 +114,6 @@ s { color:var(--faint); }
 /* ---------- external links / misc ---------- */
 .external-links, .external-link-list { list-style:none; margin:0; }
 .external-link, .block { display:inline-block; margin-right:0.8rem; }
-
-/* ---------- blog ---------- */
-.blog-container { max-width:var(--max); margin:0 auto; padding:0 1.4rem; }
 
 /* ---------- footer ---------- */
 .site-footer { border-top:1px solid var(--rule); margin-top:3.5rem; padding:1.6rem 0; color:var(--muted); font-size:0.85rem; }
