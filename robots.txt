@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /assets/docs/Steven_Kolawole_CV.pdf
 Disallow: /assets/docs/
+Disallow: /assets/Steven_Kolawole_CV.pdf
 Disallow: /assets/books/
 Sitemap: https://stevenkolawole.github.io/sitemap.xml
