@@ -65,7 +65,7 @@
         <!-- ===================== BIO ===================== -->
         <div class="bio">
           <p>Hi 👋🏿 I'm a PhD student at CMU, grateful to be advised by <a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a>. I work on making ML inference cheaper and faster, from serving clusters down to devices with a few megabytes of memory: compressing the model (Bonsai, EdgeTRM), shrinking what it keeps in memory (EpiKV), deciding when a smaller model or a draft is already good enough (ABC, Semantic Agreement, speculative decoding), and running the independent parts of a request at once (ParallelPrompt).</p>
-          <p>Lately I've been spending more time at the edge end of that range. EdgeTRM asks what survives when you compress a recursive reasoner for microcontrollers, automotive parts, and phone NPUs, and I suspect on-device reasoning is going to matter more than the current server-first framing suggests.</p>
+          <p>Lately I've been thinking about where inference should happen at all. The field mostly assumes a datacenter and a network round-trip, and I don't think that holds once models are doing things rather than answering questions. A lot of that work will have to run next to the data it's acting on, on hardware nobody would call a server, and I want to know what it takes to make a model reason there.</p>
           <p>I spent summer 2026 on the Inference Optimization Science team at AWS (Bedrock), working with <a href="https://scholar.google.com/citations?hl=en&user=V_MKBgcAAAAJ" target="_blank">Nathan Pemberton</a> and <a href="https://www.amazon.science/author/kyle-ulrich" target="_blank">Kyle Ulrich</a> on speculative decoding.</p>
         </div>
       </div>
@@ -74,7 +74,6 @@
     <!-- ===================== SELECTED PUBLICATIONS ===================== -->
     <div class="container">
       <h2 class="header-name">Selected Publications</h2>
-      <p class="stack-intro">One per layer of the inference stack. <a href="publications.html">Full list →</a></p>
 
       <div class="publication-item">
         <div class="pub-layer">Model · compression</div>
@@ -133,7 +132,7 @@
     <!-- ===================== THE SIX YEARS OF BSc ===================== -->
     <div class="container">
       <details class="collapse">
-        <summary><span class="sec">The <s>Four</s> Six Years of BSc.</span> <span class="quirk">the long version</span></summary>
+        <summary><span class="sec">The <s>Four</s> Six Years of BSc.</span> <span class="quirk">if you're curious :)</span></summary>
         <figure class="bsc-photo">
           <img src="assets/img/steven_speaking.png" alt="Steven speaking at PyCon Italia" />
           <figcaption>Speaking at PyCon Italia, one of the one million and one conferences. :)</figcaption>
