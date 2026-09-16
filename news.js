@@ -5,7 +5,7 @@ const NEWS_ITEMS = [
 
   `<strong>[Jun 2026]</strong> I'll be teaching a skills session, <em>Doing ML Research from the Margins</em>, at the <a href="https://deeplearningindaba.com/2026/" target="_blank">Deep Learning Indaba</a> (Lagos).`,
 
-  `<strong>[May 2026]</strong> I'm starting my summer role on the Inference Optimization Science team at AWS AGI Foundations, working on speculative decoding for efficient inference. Fun times!`,
+  `<strong>[May 2026]</strong> I'm starting my summer role on the inference optimization science team at AWS AGI Foundations, working on speculative decoding for efficient inference. Fun times!`,
 
   `<strong>[May 2026]</strong> I gave a talk at <a href="https://indabaxng.github.io/" target="_blank">IndabaX Nigeria</a> (University of Ibadan): a state-of-the-art overview of efficient AI and what it means for Africa. <a href="https://docs.google.com/presentation/d/1hLY94AmWbORSOQo8Xk-oj_SaiN3G7MXg8w5jBZ2K01c/edit?usp=sharing" target="_blank">Slides</a>.`,
 
