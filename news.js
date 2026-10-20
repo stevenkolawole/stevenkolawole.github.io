@@ -39,7 +39,7 @@ const NEWS_ITEMS = [
 
   `<strong>[Aug 2023]</strong> We are organizing a fundraiser for 21 African students to attend Deep Learning Indaba.`,
 
-  `<strong>[Jun 2023]</strong> I anchored workshops on the topic, "HuggingFace and You", at <a href="https://indabaxng.github.io/" target="_blank">IndabaX Nigeria</a> and later at <a href="https://festival.oscafrica.org/" target="_blank">OSCAFEST</a>. Check my 150 slides <a href="http://tinyurl.com/oscafest-huggingface-slides" target="_blank">here</a>.`,
+  `<strong>[Jun 2023]</strong> I anchored workshops on the topic, "HuggingFace and You", at <a href="https://indabaxng.github.io/" target="_blank">IndabaX Nigeria</a> and later at <a href="https://festival.oscafrica.org/" target="_blank">OSCAFEST</a>. Check my 150 slides <a href="https://tinyurl.com/oscafest-huggingface-slides" target="_blank">here</a>.`,
 
   `<strong>[Jun 2023]</strong> Our paper preprint, <a href="https://arxiv.org/abs/2305.19365" target="_blank">Vision Transformers for Mobile Applications: A Short Survey</a>, is available on arXiv.`,
 
